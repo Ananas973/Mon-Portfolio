@@ -9,11 +9,11 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
+   d. Resume (Formation), Experiences, Compétences(skillz) Section
+   e. Portfolio(Réalisations) Section
+   f. Call To Action(Retour au portfolio) Section
+   g. Testimonials Section(Mes citations/pensées)
+   h. Contact Section(Formulaire)
    i. Footer
 
 ===================================================================== */
@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #2c3d26; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #2c3d26;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: white;
 }
 #about .profile-pic {
    position: relative;
@@ -219,7 +219,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #F06000;
 }
 #about .download .button:hover {
    background: #fff;
@@ -235,37 +235,41 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#resume, #experiences, #skillz {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+a, a:visited  { color: #F06000; }
+a:hover, a:focus { color: #313131; }
 
-#resume h1 {
+h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+h1 span {
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
-#resume h3 {
+
+h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 10%; }   
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
+
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -280,6 +284,8 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -318,42 +324,81 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #2c3d26;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
-.photoshop {
-  	width: 60%;
+.laravel {
+   width: 55%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+.projectmanager {
+  	width: 75%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.packoffice {
+  	width: 75%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
+.illustration {
+   width: 60%;
+   -moz-animation: illustrator 2s ease;
+   -webkit-animation: illustrator 2s ease;
+}
+.conception {
+   width: 65%;
+   -moz-animation: illustrator 2s ease;
+   -webkit-animation: illustrator 2s ease;
+}
 .wordpress {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+.html5 {
+   width: 65%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
 .css {
-  	width: 90%;
+  	width: 65%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.javascript {
+   width: 50%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.php {
+   width: 60%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.mysql {
+   width: 45%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
 }
 .jquery {
-  	width: 50%;
+   width: 40%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.anglais {
+  	width: 85%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.espagnol {
+   width: 55%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes photoshop {
