@@ -52,10 +52,8 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
-   text-align: center;
+   padding-bottom: 30px;
 }
-
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -629,7 +627,7 @@ h3 {
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
+   background: #2c3d26;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -835,14 +833,14 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #2c3d26;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #F06000; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -891,7 +889,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: white;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -903,13 +901,13 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #F06000;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: #F06000;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -1049,5 +1047,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #F06000; }
 
