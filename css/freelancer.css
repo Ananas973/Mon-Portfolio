@@ -485,8 +485,8 @@ mark,
 }
 
 .img-fluid {
-  width: 280px;
-  height: 280px;
+  width: 220px;
+  height: 220px;
 }
 
 .img-thumbnail {
@@ -9815,6 +9815,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .portfolio {
   margin-bottom: -30px;
+  
 }
 
 .portfolio .portfolio-item {
@@ -9825,6 +9826,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 30px;
   border-radius: 0.5rem;
   overflow: hidden;
+  
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
